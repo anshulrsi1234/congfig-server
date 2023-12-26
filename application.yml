@@ -7,17 +7,4 @@ eureka:
   instance:
       hostame: localhost
     
-    
-logging.level.com.datastax.driver.core.QueryLogger.NORMAL: DEBUG
-logging.level.com.datastax.driver.core.QueryLogger.SLOW: TRACE
-
-
-logging:
-  level:
-    org:
-      springframework:
-        data:
-          cassandra:
-            core:
-              cql:
-                CqlTemplate: DEBUG
+  
